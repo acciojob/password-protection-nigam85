@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password-container {
+    text-align: center;
+}
+
+label {
+    font-size: 1rem;
+}
+
+input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
